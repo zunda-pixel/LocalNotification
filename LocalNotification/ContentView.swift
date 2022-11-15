@@ -11,7 +11,9 @@ class ContentViewModel: ObservableObject {
     do {
       let isAuthorized = try await UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge])
       
-      throw NSError(domain: "Notification Settings Error", code: 0)
+      if !isAuthorized {
+        throw NSError(domain: "Notification Settings Error", code: 0)
+      }
     } catch let newError {
       self.error = newError
     }
