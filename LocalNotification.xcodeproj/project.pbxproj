@@ -11,6 +11,8 @@
 		2E0F4901292375E1000158A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F4900292375E1000158A7 /* ContentView.swift */; };
 		2E0F4903292375E2000158A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F4902292375E2000158A7 /* Assets.xcassets */; };
 		2E0F4907292375E2000158A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F4906292375E2000158A7 /* Preview Assets.xcassets */; };
+		2E0F490E29237603000158A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F490D29237603000158A7 /* AppDelegate.swift */; };
+		2E0F4910292376B4000158A7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F490F292376B4000158A7 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2E0F4902292375E2000158A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0F4904292375E2000158A7 /* LocalNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocalNotification.entitlements; sourceTree = "<group>"; };
 		2E0F4906292375E2000158A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E0F490D29237603000158A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E0F490F292376B4000158A7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				2E0F48FE292375E1000158A7 /* LocalNotificationApp.swift */,
+				2E0F490D29237603000158A7 /* AppDelegate.swift */,
 				2E0F4900292375E1000158A7 /* ContentView.swift */,
+				2E0F490F292376B4000158A7 /* Extension.swift */,
 				2E0F4902292375E2000158A7 /* Assets.xcassets */,
 				2E0F4904292375E2000158A7 /* LocalNotification.entitlements */,
 				2E0F4905292375E2000158A7 /* Preview Content */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0F490E29237603000158A7 /* AppDelegate.swift in Sources */,
 				2E0F4901292375E1000158A7 /* ContentView.swift in Sources */,
 				2E0F48FF292375E1000158A7 /* LocalNotificationApp.swift in Sources */,
+				2E0F4910292376B4000158A7 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
